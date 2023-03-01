@@ -1,6 +1,7 @@
 .nav{
     display: flex;
     justify-content: space-between;
+    margin-top: -10g%;
 }
 nav ul li{
     display: inline-block;
@@ -42,7 +43,7 @@ nav ul li{
     width: 60%;
     float: right;
     margin-top: -10%;
-    padding:0%
+    margin-bottom: -50%;
     
 
     
@@ -56,16 +57,18 @@ nav ul li{
     float: left;
     height: min-content;
     border: 2px solid;
-    /* margin-top: 15%;
-    margin-bottom: -10%; */
+    margin-top: 15%;
+    margin-bottom: -10%;
 }
 .shop{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-#adv{
-    text-align: center;
+.adv{
+    font-size: 50px;
+    margin-left: 30%;
+    
 }
 #mini{
     font-size: 60px;
@@ -77,29 +80,27 @@ nav ul li{
     font-weight: bold;
 
 }
-.box{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
+
 .one{
     border-radius: 3px solid pink;
-    background-color: white;
-    padding: 5%;
+    margin-top: 60%;
 }
 .two{
-    border-radius: 3px solid white;
+    border: 3px solid whitesmoke;
     background-color: white;
-    padding: 5%;
+    margin-left: 30%;
+    margin-top: -25%;
 }
 .three{
     border-radius: 3px solid white;
     background-color: white;
-    padding: 5%;
     border-radius: 2px;
+    margin-left: 60%;
+    margin-top: -25%;
 }
 .sallon{
     display: flex;
+    margin-bottom: 10%;
 }
 .explore{
     border: 2px black solid;
@@ -131,33 +132,38 @@ nav ul li{
 #for{
     text-align: center;
     justify-content: space-between;
-    padding: 10%;
+    padding: 30%;
+    font-size: 35px;
+    margin-top: -25%;
 }
 .color{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-top: -25%;
+    padding-left: 3%;
+
 
 }
 #red{
     width: 30%;
     padding: 5%;
-    border-radius: 3px solid white;
-    background-color: white;
+    border-radius: 3px solid whitesmoke;
+    background-color: moccasin;
     padding: 5%;
     border-radius: 2px;
 }
 #white{
     width: 30%;
-    border-radius: 3px solid white;
-    background-color: white;
+    border-radius: 3px solid whitesmoke;
+    background-color: moccasin;
     padding: 5%;
     border-radius: 2px;
 }
 #yellow{
-    width: 30%;
-    border-radius: 3px solid white;
-    background-color: white;
+    width: 90px;
+    border-radius: 3px solid whitesmoke;
+    background-color: moccasin;
     padding: 5%;
     border-radius: 2px;
 }
@@ -177,4 +183,64 @@ nav ul li{
     justify-content: space-between;
     flex-direction: row;
     font-size: large;
+    margin-top: 10%;
+}
+#room1{
+    width: 20%;
+    border-radius: 3px solid white;
+    background-color: white;
+    padding: 5%;
+    border-radius: 2px;
+}
+#room2{
+    width: 50%;
+    border-radius: 3px solid white;
+    background-color: white;
+    padding: 5%;
+    border-radius: 2px;
+}
+#room3{
+    width: 50%;
+    border-radius: 3px solid white;
+    background-color: white;
+    padding: 5%;
+    border-radius: 2px;
+}
+#room4{
+    width: 20%;
+    border-radius: 3px solid white;
+    background-color: white;
+    padding: 5%;
+    border-radius: 2px solid white
+}
+#pic{
+    width: 90%;
+    border-radius: 3px solid white;
+    background-color: white;
+    padding: 5%;
+    border-radius: 2px;
+    height: 5%;
+}
+.sub{
+    margin-top: -50%;
+    margin-left: 20%;
+    font-size: 70px;
+    font-weight: 40px;
+    margin-bottom: -5%;
+}
+.email{
+    margin-left: 20%;
+    margin-top: 10%;
+    
+}
+input{
+padding-left: 150%;
+padding-right: 150%;
+padding: 3%;
+width: 300px;
+}
+.press{
+    margin-left: 55%;
+    margin-top: -5%;
+    margin-right: 70%;
 }
