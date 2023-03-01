@@ -1,0 +1,180 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav ul li{
+    display: inline-block;
+    padding: 10px 10px;
+    font-size: large;
+
+
+}
+.logo{
+    color: black;
+    font-weight: bold;
+    font-size: x-large;
+    text-transform: uppercase;
+    font-size: 40px;
+
+}
+.nav ul li a{
+    color: black;
+    text-decoration: solid;
+    font-weight: bold;
+
+
+}
+.button{
+    border: 3px black solid;
+    background-color: black;
+    color: white;
+    padding: 20px 15px;
+    height: 7px;
+    text-align: center;
+}
+.get{
+    border: 2px black solid;
+    background-color: black;
+    color: white;
+    padding: 10px 30px; 
+}
+#living{
+    width: 60%;
+    float: right;
+    margin-top: -10%;
+    padding:0%
+    
+
+    
+}
+.body{
+    padding: 10%;
+    background-color: white;
+}
+#chair1{
+    width: 30%;
+    float: left;
+    height: min-content;
+    border: 2px solid;
+    /* margin-top: 15%;
+    margin-bottom: -10%; */
+}
+.shop{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#adv{
+    text-align: center;
+}
+#mini{
+    font-size: 60px;
+    font-weight: bold;
+
+}
+#line{
+    font-size: 60px;
+    font-weight: bold;
+
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.one{
+    border-radius: 3px solid pink;
+    background-color: white;
+    padding: 5%;
+}
+.two{
+    border-radius: 3px solid white;
+    background-color: white;
+    padding: 5%;
+}
+.three{
+    border-radius: 3px solid white;
+    background-color: white;
+    padding: 5%;
+    border-radius: 2px;
+}
+.sallon{
+    display: flex;
+}
+.explore{
+    border: 2px black solid;
+    background-color: black;
+    color: white;
+    padding: 10px 30px; 
+}
+#sallon1{
+    width: 30%;
+    float: right;
+    margin-bottom: 40%;
+    margin-top: -20%;
+    padding:0%
+}
+#sallon2{
+    width: 30%;
+    float: right;
+    margin-top: -15%;
+    margin-right: -15%;
+    padding:0%
+}
+#sallon3{
+    width: 20%;
+    float: right;
+    margin-top: -10%;
+    margin-right: -15%;
+    padding:0%
+}
+#for{
+    text-align: center;
+    justify-content: space-between;
+    padding: 10%;
+}
+.color{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+#red{
+    width: 30%;
+    padding: 5%;
+    border-radius: 3px solid white;
+    background-color: white;
+    padding: 5%;
+    border-radius: 2px;
+}
+#white{
+    width: 30%;
+    border-radius: 3px solid white;
+    background-color: white;
+    padding: 5%;
+    border-radius: 2px;
+}
+#yellow{
+    width: 30%;
+    border-radius: 3px solid white;
+    background-color: white;
+    padding: 5%;
+    border-radius: 2px;
+}
+#collection{
+    text-align: center;
+}
+.view{
+    border: 3px black solid;
+    background-color: black;
+    color: white;
+    padding: 20px 15px;
+    height: 7px;
+    text-align: center;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    font-size: large;
+}
