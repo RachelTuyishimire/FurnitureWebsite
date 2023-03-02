@@ -56,8 +56,10 @@ nav ul li{
     float: left;
     height: min-content;
     border: 2px solid;
-    margin-top: 15%;
+    margin-top: -1%;
     margin-bottom: -10%;
+    margin-left: 5%;
+    
 }
 .shop{
     display: flex;
@@ -73,6 +75,7 @@ nav ul li{
     font-size: 60px;
     font-weight: bold;
 
+
 }
 #line{
     font-size: 60px;
@@ -81,16 +84,20 @@ nav ul li{
 }
 
 .one{
+    
     margin-top: 60%;
-    background-color: whitesmoke;
+    border-radius: 2px;
+    margin-top: -5%;
 }
+    
+
 .two{
-    background-color: whitesmoke;
     margin-left: 30%;
     margin-top: -25%;
+    margin-right:10%;
+    padding-left: 10px;
 }
 .three{
-    background-color: whitesmoke;
     border-radius: 2px;
     margin-left: 60%;
     margin-top: -25%;
@@ -229,18 +236,31 @@ width: 300px;
     width: 10%;
     height: 20%;
 }
-/* .intebe{
-    margin-left: 30%;
-    margin-top: 20%;
-    margin-bottom: 20%;
-    width: 15%
+.now{
+    background-color: white;
+    color: black;
+    float: right;
+    margin-top: -15%;
+    /* margin-left: 30%; */
 }
-.royal{
-    margin-left: 90%;
-    margin-top: -60%;
-    margin-bottom: 20%;
-    width: 15%
+.cont{
+    background-color: whitesmoke;
 }
-#roy{
-
-} */
+#intebe{
+    width: 25%;
+    margin-bottom: 20%;
+    /* margin-left: 0%; */
+    margin-top: -40;
+}
+#royal{
+    width: 25%;
+    margin-bottom: 20%;
+    /* margin-left: 0%; */
+    /* margin-top: -20; */
+}
+.chairs{
+    justify-content: space-between;
+    display: flex;
+    padding: 10%;
+    margin-top: 17%;
+}
